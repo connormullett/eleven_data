@@ -3,6 +3,24 @@ from django.shortcuts import render, redirect
 from django.http import HttpResponse
 from django.contrib.auth.forms import UserCreationForm
 from django.contrib.auth import authenticate, login
+from .models import Student
+
+
+def student_list(request):
+    students = Student.objects.all()
+    return render(request, 'students/students.html', {'students': students})
+
+
+def create(request):
+    pass
+
+
+def update(request):
+    pass
+
+
+def delete(request):
+    pass
 
 
 # @login_required
