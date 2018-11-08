@@ -4,6 +4,7 @@ from django.http import HttpResponse
 from django.contrib.auth.forms import UserCreationForm
 from django.contrib.auth import authenticate, login
 from .models import Student
+from .forms import StudentForm
 
 
 def student_list(request):
@@ -12,7 +13,14 @@ def student_list(request):
 
 
 def create(request):
-    pass
+    form = StudentForm(request.POST or None)
+
+    if form.is_valid():
+        form.save()
+        return redirect('index')
+
+    if request.method == "GET":
+        return render(request, 'students/student_form.html', {'form': form})
 
 
 def update(request):
@@ -21,11 +29,6 @@ def update(request):
 
 def delete(request):
     pass
-
-
-# @login_required
-def index(request):
-    return render(request, 'students/index.html')
 
 
 def register(request):

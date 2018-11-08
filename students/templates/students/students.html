@@ -9,5 +9,7 @@
     <p>First Name: {{ student.first_name }}</p>
     <p>GPA: {{ student.gpa }}</p>
     {% endfor %}
+    <br>
+    <a href="{% url 'create' %}">New Student</a>
 </body>
 </html>
