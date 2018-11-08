@@ -6,8 +6,14 @@
 <body>
     <div>
         <h1>Welcome</h1>
-        <span><a href="{% url 'login' %}">Login</a></span>
-        <span><a href="{% url 'register' %}">Register</a></span>
+        {% if user.is_authenticated %}
+        <span>Hello, {{ user.username }}</span>
+        {% endif %}
+        <p><a href="{% url 'login' %}">Login</a></p>
+        <p><a href="{% url 'register' %}">Register</a></p>
+        {% if user.is_authenticated %}
+        <p><a href="{% url 'logout' %}">Logout</a></p>
+        {% endif %}
     </div>
 </body>
 </html>
