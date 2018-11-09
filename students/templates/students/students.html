@@ -3,11 +3,15 @@
     <title>Students</title>
 </head>
 <body>
+    <a href="{% url 'landing' %}">Home</a>
+    <br>
     {% for student in students %}
     <p>Student ID: {{ student.id }}</p>
     <p>Last Name: {{ student.last_name }}</p>
     <p>First Name: {{ student.first_name }}</p>
     <p>GPA: {{ student.gpa }}</p>
+    <a href="{% url 'update' student.id %}">Edit</a>
+    <a href="{% url 'delete' student.id %}">Delete</a>
     {% endfor %}
     <br>
     <a href="{% url 'create' %}">New Student</a>

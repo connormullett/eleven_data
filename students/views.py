@@ -23,12 +23,25 @@ def create(request):
         return render(request, 'students/student_form.html', {'form': form})
 
 
-def update(request):
-    pass
+def update(request, id):
+    student = Student.objects.get(id=id)
+    form = StudentForm(request.POST or None, instance=student)
+
+    if form.is_valid():
+        form.save()
+        return redirect('index')
+
+    return render(request, 'students/student_form.html', {'form': form, 'student': student})
 
 
-def delete(request):
-    pass
+def delete(request, id):
+    student = Student.objects.get(id=id)
+
+    if request.method == 'POST':
+        student.delete()
+        return redirect('index')
+
+    return render(request, 'students/student_delete_confirm.html', {'student': student})
 
 
 def register(request):
