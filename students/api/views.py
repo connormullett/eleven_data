@@ -14,3 +14,7 @@ class StudentRudView(generics.RetrieveUpdateDestroyAPIView):
 
     def get_queryset(self):
         return Student.objects.all()
+
+
+class CreateStudent(generics.CreateAPIView):
+    serializer_class = StudentSerializer
