@@ -13,5 +13,8 @@ class StudentSerializer(serializers.ModelSerializer):
             'enrolled_at',
             'gpa'
         ]
-        # serializer converts to json
-        # validations for data passed
+
+        read_only_fields = ['pk']
+
+    # serializer converts to json
+    # validations for data passed
