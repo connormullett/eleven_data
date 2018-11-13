@@ -10,7 +10,7 @@ class StudentSerializer(serializers.ModelSerializer):
             'pk',
             'first_name',
             'last_name',
-            'enrolled_at'
+            'enrolled_at',
             'gpa'
         ]
         # serializer converts to json
