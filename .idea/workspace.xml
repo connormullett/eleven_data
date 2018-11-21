@@ -3,10 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="43c2617a-b36c-431f-b753-cef194773988" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eleven_data/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/eleven_data/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/students/api/serlializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/students/api/serlializers.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/students/api/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/students/api/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/students/api/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/students/api/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eleven_data/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/eleven_data/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/students/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/students/urls.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,38 +16,39 @@
     <session id="69129086">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="6" />
+          <entry key="project.closed" value="8" />
           <entry key="project.open.time.0" value="4" />
           <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.10" value="1" />
           <entry key="project.open.time.3" value="1" />
           <entry key="project.open.time.7" value="2" />
-          <entry key="project.open.time.8" value="1" />
+          <entry key="project.open.time.8" value="2" />
           <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="10" />
+          <entry key="project.opened" value="12" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="html" value="34" />
-          <entry key="py" value="131" />
+          <entry key="py" value="134" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="HTML" value="34" />
-          <entry key="Python" value="131" />
+          <entry key="Python" value="134" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="html" value="2364" />
-          <entry key="py" value="4908" />
+          <entry key="py" value="5037" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="HTML" value="2364" />
-          <entry key="Python" value="4908" />
+          <entry key="Python" value="5037" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages" />
@@ -57,11 +56,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/students/api/views.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="289">
-              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+              <caret line="17" selection-start-line="17" selection-end-line="17" />
               <folding>
                 <element signature="e#52#87#0" expanded="true" />
               </folding>
@@ -69,14 +68,35 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/students/api/urls.py">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/eleven_data/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="58" selection-start-line="8" selection-start-column="58" selection-end-line="8" selection-end-column="58" />
+            <state relative-caret-position="119">
+              <caret line="7" column="64" selection-start-line="7" selection-start-column="64" selection-end-line="7" selection-end-column="64" />
               <folding>
-                <element signature="e#1#34#0" expanded="true" />
+                <element signature="e#1#33#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/students/urls.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+              <folding>
+                <element signature="e#1#29#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/eleven_data/settings.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="374">
+              <caret line="22" column="21" selection-start-line="22" selection-start-column="21" selection-end-line="22" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -109,19 +129,19 @@
         <option value="$PROJECT_DIR$/students/views.py" />
         <option value="$PROJECT_DIR$/students/templates/students/student_delete_confirm.html" />
         <option value="$PROJECT_DIR$/students/templates/students/students.html" />
-        <option value="$PROJECT_DIR$/students/urls.py" />
         <option value="$PROJECT_DIR$/students/api/__init__.py" />
-        <option value="$PROJECT_DIR$/eleven_data/urls.py" />
         <option value="$PROJECT_DIR$/students/api/serlializers.py" />
-        <option value="$PROJECT_DIR$/eleven_data/settings.py" />
         <option value="$PROJECT_DIR$/students/api/urls.py" />
         <option value="$PROJECT_DIR$/students/api/views.py" />
+        <option value="$PROJECT_DIR$/eleven_data/settings.py" />
+        <option value="$PROJECT_DIR$/students/urls.py" />
+        <option value="$PROJECT_DIR$/eleven_data/urls.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="192" />
-    <option name="y" value="71" />
+    <option name="x" value="161" />
+    <option name="y" value="40" />
     <option name="width" value="1532" />
     <option name="height" value="985" />
   </component>
@@ -133,7 +153,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -151,16 +170,11 @@
               <item name="eleven_data" type="462c0819:PsiDirectoryNode" />
               <item name="students" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="eleven_data" type="b2602c69:ProjectViewProjectNode" />
-              <item name="eleven_data" type="462c0819:PsiDirectoryNode" />
-              <item name="students" type="462c0819:PsiDirectoryNode" />
-              <item name="api" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -194,7 +208,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="192" y="71" width="1532" height="985" extended-state="0" />
+    <frame x="161" y="40" width="1532" height="985" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13452618" />
@@ -332,33 +346,26 @@
     <entry file="file://$PROJECT_DIR$/students/api/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/students/urls.py">
+    <entry file="file://$PROJECT_DIR$/students/api/serlializers.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eleven_data/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="7" column="23" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
+        <state relative-caret-position="272">
+          <caret line="16" column="33" selection-start-line="16" selection-start-column="33" selection-end-line="16" selection-end-column="33" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/eleven_data/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="646">
-          <caret line="56" selection-start-line="56" selection-end-line="56" />
+        <state relative-caret-position="374">
+          <caret line="22" column="21" selection-start-line="22" selection-start-column="21" selection-end-line="22" selection-end-column="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/students/api/serlializers.py">
+    <entry file="file://$PROJECT_DIR$/students/api/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="33" selection-start-line="16" selection-start-column="33" selection-end-line="16" selection-end-column="33" />
+        <state relative-caret-position="289">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
           <folding>
-            <element signature="e#1#39#0" expanded="true" />
+            <element signature="e#52#87#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -366,19 +373,29 @@
     <entry file="file://$PROJECT_DIR$/students/api/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
-          <caret line="8" column="58" selection-start-line="8" selection-start-column="58" selection-end-line="8" selection-end-column="58" />
+          <caret line="8" column="60" selection-start-line="8" selection-start-column="60" selection-end-line="8" selection-end-column="60" />
           <folding>
             <element signature="e#1#34#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/students/api/views.py">
+    <entry file="file://$PROJECT_DIR$/students/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+        <state relative-caret-position="102">
+          <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
           <folding>
-            <element signature="e#52#87#0" expanded="true" />
+            <element signature="e#1#29#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eleven_data/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="64" selection-start-line="7" selection-start-column="64" selection-end-line="7" selection-end-column="64" />
+          <folding>
+            <element signature="e#1#33#0" expanded="true" />
           </folding>
         </state>
       </provider>
